@@ -1,0 +1,431 @@
+{
+  "data": [
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T10:00:00",
+        "end": "2023-08-31T11:00:00",
+        "value": "11"
+      },
+      "region": "Central",
+      "load": 38490.01
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T10:00:00",
+        "end": "2023-08-31T11:00:00",
+        "value": "11"
+      },
+      "region": "North",
+      "load": 18287.58
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T10:00:00",
+        "end": "2023-08-31T11:00:00",
+        "value": "11"
+      },
+      "region": "South",
+      "load": 22027.28
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T11:00:00",
+        "end": "2023-08-31T12:00:00",
+        "value": "12"
+      },
+      "region": "Central",
+      "load": 39388.18
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T11:00:00",
+        "end": "2023-08-31T12:00:00",
+        "value": "12"
+      },
+      "region": "North",
+      "load": 18789.87
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T11:00:00",
+        "end": "2023-08-31T12:00:00",
+        "value": "12"
+      },
+      "region": "South",
+      "load": 23720.92
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T12:00:00",
+        "end": "2023-08-31T13:00:00",
+        "value": "13"
+      },
+      "region": "Central",
+      "load": 40239.31
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T12:00:00",
+        "end": "2023-08-31T13:00:00",
+        "value": "13"
+      },
+      "region": "North",
+      "load": 19197.23
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T12:00:00",
+        "end": "2023-08-31T13:00:00",
+        "value": "13"
+      },
+      "region": "South",
+      "load": 25109.87
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T13:00:00",
+        "end": "2023-08-31T14:00:00",
+        "value": "14"
+      },
+      "region": "Central",
+      "load": 41155.67
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T13:00:00",
+        "end": "2023-08-31T14:00:00",
+        "value": "14"
+      },
+      "region": "North",
+      "load": 19386.53
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T13:00:00",
+        "end": "2023-08-31T14:00:00",
+        "value": "14"
+      },
+      "region": "South",
+      "load": 26302.35
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T14:00:00",
+        "end": "2023-08-31T15:00:00",
+        "value": "15"
+      },
+      "region": "Central",
+      "load": 41891.17
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T14:00:00",
+        "end": "2023-08-31T15:00:00",
+        "value": "15"
+      },
+      "region": "North",
+      "load": 19919.93
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T14:00:00",
+        "end": "2023-08-31T15:00:00",
+        "value": "15"
+      },
+      "region": "South",
+      "load": 27134.66
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T15:00:00",
+        "end": "2023-08-31T16:00:00",
+        "value": "16"
+      },
+      "region": "Central",
+      "load": 42665.32
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T15:00:00",
+        "end": "2023-08-31T16:00:00",
+        "value": "16"
+      },
+      "region": "North",
+      "load": 20671.11
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T15:00:00",
+        "end": "2023-08-31T16:00:00",
+        "value": "16"
+      },
+      "region": "South",
+      "load": 27750.04
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T16:00:00",
+        "end": "2023-08-31T17:00:00",
+        "value": "17"
+      },
+      "region": "Central",
+      "load": 43427.03
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T16:00:00",
+        "end": "2023-08-31T17:00:00",
+        "value": "17"
+      },
+      "region": "North",
+      "load": 21100.62
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T16:00:00",
+        "end": "2023-08-31T17:00:00",
+        "value": "17"
+      },
+      "region": "South",
+      "load": 27765.6
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T17:00:00",
+        "end": "2023-08-31T18:00:00",
+        "value": "18"
+      },
+      "region": "Central",
+      "load": 43458.87
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T17:00:00",
+        "end": "2023-08-31T18:00:00",
+        "value": "18"
+      },
+      "region": "North",
+      "load": 21332.74
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T17:00:00",
+        "end": "2023-08-31T18:00:00",
+        "value": "18"
+      },
+      "region": "South",
+      "load": 27454.17
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T18:00:00",
+        "end": "2023-08-31T19:00:00",
+        "value": "19"
+      },
+      "region": "Central",
+      "load": 42726.14
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T18:00:00",
+        "end": "2023-08-31T19:00:00",
+        "value": "19"
+      },
+      "region": "North",
+      "load": 21171
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T18:00:00",
+        "end": "2023-08-31T19:00:00",
+        "value": "19"
+      },
+      "region": "South",
+      "load": 26822.06
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T19:00:00",
+        "end": "2023-08-31T20:00:00",
+        "value": "20"
+      },
+      "region": "Central",
+      "load": 41433.75
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T19:00:00",
+        "end": "2023-08-31T20:00:00",
+        "value": "20"
+      },
+      "region": "North",
+      "load": 20613.53
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T19:00:00",
+        "end": "2023-08-31T20:00:00",
+        "value": "20"
+      },
+      "region": "South",
+      "load": 25714.21
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T20:00:00",
+        "end": "2023-08-31T21:00:00",
+        "value": "21"
+      },
+      "region": "Central",
+      "load": 40238.51
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T20:00:00",
+        "end": "2023-08-31T21:00:00",
+        "value": "21"
+      },
+      "region": "North",
+      "load": 20078.15
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T20:00:00",
+        "end": "2023-08-31T21:00:00",
+        "value": "21"
+      },
+      "region": "South",
+      "load": 24883.1
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T21:00:00",
+        "end": "2023-08-31T22:00:00",
+        "value": "22"
+      },
+      "region": "Central",
+      "load": 37723.87
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T21:00:00",
+        "end": "2023-08-31T22:00:00",
+        "value": "22"
+      },
+      "region": "North",
+      "load": 19066.49
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T21:00:00",
+        "end": "2023-08-31T22:00:00",
+        "value": "22"
+      },
+      "region": "South",
+      "load": 23531.89
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T22:00:00",
+        "end": "2023-08-31T23:00:00",
+        "value": "23"
+      },
+      "region": "Central",
+      "load": 35063.41
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T22:00:00",
+        "end": "2023-08-31T23:00:00",
+        "value": "23"
+      },
+      "region": "North",
+      "load": 17822.99
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T22:00:00",
+        "end": "2023-08-31T23:00:00",
+        "value": "23"
+      },
+      "region": "South",
+      "load": 22069.24
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T23:00:00",
+        "end": "2023-09-01T00:00:00",
+        "value": "24"
+      },
+      "region": "Central",
+      "load": 32887.44
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T23:00:00",
+        "end": "2023-09-01T00:00:00",
+        "value": "24"
+      },
+      "region": "North",
+      "load": 16704.25
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T23:00:00",
+        "end": "2023-09-01T00:00:00",
+        "value": "24"
+      },
+      "region": "South",
+      "load": 20556.6
+    }
+  ],
+  "page": {
+    "pageNumber": 1,
+    "pageSize": 1000,
+    "totalElements": 42,
+    "totalPages": 1,
+    "lastPage": true
+  }
+}

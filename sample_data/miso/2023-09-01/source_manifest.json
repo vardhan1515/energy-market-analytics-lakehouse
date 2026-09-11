@@ -1,0 +1,30 @@
+{
+  "source": "MISO Data Exchange",
+  "base_url": "https://apim.misoenergy.org",
+  "market_date": "2023-09-01",
+  "retrieved_at_utc": "2026-08-22T05:03:35.325781+00:00",
+  "datasets": {
+    "actual": {
+      "endpoint": "/lgi/v1/real-time/2023-09-01/demand/actual",
+      "records": 72,
+      "pages": [
+        {
+          "file": "actual_load_page_0001.json",
+          "records": 72,
+          "sha256": "dd5342616dd0ea7c28e3ec9de14708ec2413339c4a8e2ae67e9ec320920b3a34"
+        }
+      ]
+    },
+    "forecast": {
+      "endpoint": "/lgi/v1/forecast/2023-09-01/load",
+      "records": 240,
+      "pages": [
+        {
+          "file": "load_forecast_page_0001.json",
+          "records": 240,
+          "sha256": "5ead513808fd0e1332b141da6083beafd433adb01bfda6061de2fc215d1974f9"
+        }
+      ]
+    }
+  }
+}

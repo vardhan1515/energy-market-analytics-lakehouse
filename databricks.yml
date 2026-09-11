@@ -1,0 +1,12 @@
+bundle:
+  name: energy-market-analytics-lakehouse
+
+include:
+  - databricks/resources/*.yml
+
+targets:
+  free:
+    default: true
+    mode: development
+    workspace:
+      root_path: /Workspace/Users/${workspace.current_user.userName}/.bundle/${bundle.name}/${bundle.target}

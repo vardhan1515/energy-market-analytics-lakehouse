@@ -1,0 +1,56 @@
+{
+  "RefId": "22-Aug-2026 - Interval 21:15 EST",
+  "TotalMW": "87302",
+  "Fuel": {
+    "Type": [
+      {
+        "INTERVALEST": "2026-08-22 9:15:00 PM",
+        "CATEGORY": "Coal",
+        "ACT": "31853",
+        "FUEL_CATEGORY": "Coal  (31,853 MW)"
+      },
+      {
+        "INTERVALEST": "2026-08-22 9:15:00 PM",
+        "CATEGORY": "Natural Gas",
+        "ACT": "30772",
+        "FUEL_CATEGORY": "Natural Gas  (30,772 MW)"
+      },
+      {
+        "INTERVALEST": "2026-08-22 9:15:00 PM",
+        "CATEGORY": "Nuclear",
+        "ACT": "11076",
+        "FUEL_CATEGORY": "Nuclear  (11,076 MW)"
+      },
+      {
+        "INTERVALEST": "2026-08-22 9:15:00 PM",
+        "CATEGORY": "Wind",
+        "ACT": "7048",
+        "FUEL_CATEGORY": "Wind  (7,048 MW)"
+      },
+      {
+        "INTERVALEST": "2026-08-22 9:15:00 PM",
+        "CATEGORY": "Solar",
+        "ACT": "81",
+        "FUEL_CATEGORY": "Solar  (81 MW)"
+      },
+      {
+        "INTERVALEST": "2026-08-22 9:15:00 PM",
+        "CATEGORY": "Battery Storage",
+        "ACT": "256",
+        "FUEL_CATEGORY": "Battery Storage  (256 MW)"
+      },
+      {
+        "INTERVALEST": "2026-08-22 9:15:00 PM",
+        "CATEGORY": "Other",
+        "ACT": "1626",
+        "FUEL_CATEGORY": "Other  (1,626 MW)"
+      },
+      {
+        "INTERVALEST": "2026-08-22 9:15:00 PM",
+        "CATEGORY": "Imports",
+        "ACT": "4590",
+        "FUEL_CATEGORY": "Imports (4,590 MW)"
+      }
+    ]
+  }
+}

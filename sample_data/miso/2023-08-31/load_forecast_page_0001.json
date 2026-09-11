@@ -1,0 +1,2891 @@
+{
+  "data": [
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T00:00:00",
+        "end": "2023-08-31T01:00:00",
+        "value": "1"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z1",
+      "loadForecast": 10373.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T00:00:00",
+        "end": "2023-08-31T01:00:00",
+        "value": "1"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z10",
+      "loadForecast": 2563.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T00:00:00",
+        "end": "2023-08-31T01:00:00",
+        "value": "1"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z2",
+      "loadForecast": 6337.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T00:00:00",
+        "end": "2023-08-31T01:00:00",
+        "value": "1"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z3",
+      "loadForecast": 5686.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T00:00:00",
+        "end": "2023-08-31T01:00:00",
+        "value": "1"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z4",
+      "loadForecast": 4554.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T00:00:00",
+        "end": "2023-08-31T01:00:00",
+        "value": "1"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z5",
+      "loadForecast": 3499.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T00:00:00",
+        "end": "2023-08-31T01:00:00",
+        "value": "1"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z6",
+      "loadForecast": 8510.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T00:00:00",
+        "end": "2023-08-31T01:00:00",
+        "value": "1"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z7",
+      "loadForecast": 10531.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T00:00:00",
+        "end": "2023-08-31T01:00:00",
+        "value": "1"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z8",
+      "loadForecast": 4388.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T00:00:00",
+        "end": "2023-08-31T01:00:00",
+        "value": "1"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z9",
+      "loadForecast": 12929.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T01:00:00",
+        "end": "2023-08-31T02:00:00",
+        "value": "2"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z1",
+      "loadForecast": 9958.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T01:00:00",
+        "end": "2023-08-31T02:00:00",
+        "value": "2"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z10",
+      "loadForecast": 2425.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T01:00:00",
+        "end": "2023-08-31T02:00:00",
+        "value": "2"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z2",
+      "loadForecast": 6136.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T01:00:00",
+        "end": "2023-08-31T02:00:00",
+        "value": "2"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z3",
+      "loadForecast": 5485.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T01:00:00",
+        "end": "2023-08-31T02:00:00",
+        "value": "2"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z4",
+      "loadForecast": 4420.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T01:00:00",
+        "end": "2023-08-31T02:00:00",
+        "value": "2"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z5",
+      "loadForecast": 3327.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T01:00:00",
+        "end": "2023-08-31T02:00:00",
+        "value": "2"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z6",
+      "loadForecast": 8254.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T01:00:00",
+        "end": "2023-08-31T02:00:00",
+        "value": "2"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z7",
+      "loadForecast": 9370.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T01:00:00",
+        "end": "2023-08-31T02:00:00",
+        "value": "2"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z8",
+      "loadForecast": 4154.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T01:00:00",
+        "end": "2023-08-31T02:00:00",
+        "value": "2"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z9",
+      "loadForecast": 12425.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T02:00:00",
+        "end": "2023-08-31T03:00:00",
+        "value": "3"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z1",
+      "loadForecast": 9712.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T02:00:00",
+        "end": "2023-08-31T03:00:00",
+        "value": "3"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z10",
+      "loadForecast": 2330.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T02:00:00",
+        "end": "2023-08-31T03:00:00",
+        "value": "3"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z2",
+      "loadForecast": 6017.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T02:00:00",
+        "end": "2023-08-31T03:00:00",
+        "value": "3"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z3",
+      "loadForecast": 5371.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T02:00:00",
+        "end": "2023-08-31T03:00:00",
+        "value": "3"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z4",
+      "loadForecast": 4355.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T02:00:00",
+        "end": "2023-08-31T03:00:00",
+        "value": "3"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z5",
+      "loadForecast": 3214.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T02:00:00",
+        "end": "2023-08-31T03:00:00",
+        "value": "3"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z6",
+      "loadForecast": 8146.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T02:00:00",
+        "end": "2023-08-31T03:00:00",
+        "value": "3"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z7",
+      "loadForecast": 10239.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T02:00:00",
+        "end": "2023-08-31T03:00:00",
+        "value": "3"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z8",
+      "loadForecast": 3986.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T02:00:00",
+        "end": "2023-08-31T03:00:00",
+        "value": "3"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z9",
+      "loadForecast": 12061.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T03:00:00",
+        "end": "2023-08-31T04:00:00",
+        "value": "4"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z1",
+      "loadForecast": 9603.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T03:00:00",
+        "end": "2023-08-31T04:00:00",
+        "value": "4"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z10",
+      "loadForecast": 2268.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T03:00:00",
+        "end": "2023-08-31T04:00:00",
+        "value": "4"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z2",
+      "loadForecast": 5983.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T03:00:00",
+        "end": "2023-08-31T04:00:00",
+        "value": "4"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z3",
+      "loadForecast": 5328.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T03:00:00",
+        "end": "2023-08-31T04:00:00",
+        "value": "4"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z4",
+      "loadForecast": 4322.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T03:00:00",
+        "end": "2023-08-31T04:00:00",
+        "value": "4"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z5",
+      "loadForecast": 3144.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T03:00:00",
+        "end": "2023-08-31T04:00:00",
+        "value": "4"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z6",
+      "loadForecast": 8216.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T03:00:00",
+        "end": "2023-08-31T04:00:00",
+        "value": "4"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z7",
+      "loadForecast": 10338.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T03:00:00",
+        "end": "2023-08-31T04:00:00",
+        "value": "4"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z8",
+      "loadForecast": 3879.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T03:00:00",
+        "end": "2023-08-31T04:00:00",
+        "value": "4"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z9",
+      "loadForecast": 11823.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T04:00:00",
+        "end": "2023-08-31T05:00:00",
+        "value": "5"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z1",
+      "loadForecast": 9715.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T04:00:00",
+        "end": "2023-08-31T05:00:00",
+        "value": "5"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z10",
+      "loadForecast": 2240.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T04:00:00",
+        "end": "2023-08-31T05:00:00",
+        "value": "5"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z2",
+      "loadForecast": 6103.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T04:00:00",
+        "end": "2023-08-31T05:00:00",
+        "value": "5"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z3",
+      "loadForecast": 5370.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T04:00:00",
+        "end": "2023-08-31T05:00:00",
+        "value": "5"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z4",
+      "loadForecast": 4382.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T04:00:00",
+        "end": "2023-08-31T05:00:00",
+        "value": "5"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z5",
+      "loadForecast": 3167.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T04:00:00",
+        "end": "2023-08-31T05:00:00",
+        "value": "5"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z6",
+      "loadForecast": 8567.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T04:00:00",
+        "end": "2023-08-31T05:00:00",
+        "value": "5"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z7",
+      "loadForecast": 10743.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T04:00:00",
+        "end": "2023-08-31T05:00:00",
+        "value": "5"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z8",
+      "loadForecast": 3841.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T04:00:00",
+        "end": "2023-08-31T05:00:00",
+        "value": "5"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z9",
+      "loadForecast": 11758.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T05:00:00",
+        "end": "2023-08-31T06:00:00",
+        "value": "6"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z1",
+      "loadForecast": 10168.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T05:00:00",
+        "end": "2023-08-31T06:00:00",
+        "value": "6"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z10",
+      "loadForecast": 2297.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T05:00:00",
+        "end": "2023-08-31T06:00:00",
+        "value": "6"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z2",
+      "loadForecast": 6440.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T05:00:00",
+        "end": "2023-08-31T06:00:00",
+        "value": "6"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z3",
+      "loadForecast": 5574.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T05:00:00",
+        "end": "2023-08-31T06:00:00",
+        "value": "6"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z4",
+      "loadForecast": 4573.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T05:00:00",
+        "end": "2023-08-31T06:00:00",
+        "value": "6"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z5",
+      "loadForecast": 3315.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T05:00:00",
+        "end": "2023-08-31T06:00:00",
+        "value": "6"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z6",
+      "loadForecast": 9198.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T05:00:00",
+        "end": "2023-08-31T06:00:00",
+        "value": "6"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z7",
+      "loadForecast": 11453.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T05:00:00",
+        "end": "2023-08-31T06:00:00",
+        "value": "6"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z8",
+      "loadForecast": 3911.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T05:00:00",
+        "end": "2023-08-31T06:00:00",
+        "value": "6"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z9",
+      "loadForecast": 11916.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T06:00:00",
+        "end": "2023-08-31T07:00:00",
+        "value": "7"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z1",
+      "loadForecast": 10875.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T06:00:00",
+        "end": "2023-08-31T07:00:00",
+        "value": "7"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z10",
+      "loadForecast": 2412.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T06:00:00",
+        "end": "2023-08-31T07:00:00",
+        "value": "7"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z2",
+      "loadForecast": 6873.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T06:00:00",
+        "end": "2023-08-31T07:00:00",
+        "value": "7"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z3",
+      "loadForecast": 5911.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T06:00:00",
+        "end": "2023-08-31T07:00:00",
+        "value": "7"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z4",
+      "loadForecast": 4783.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T06:00:00",
+        "end": "2023-08-31T07:00:00",
+        "value": "7"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z5",
+      "loadForecast": 3550.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T06:00:00",
+        "end": "2023-08-31T07:00:00",
+        "value": "7"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z6",
+      "loadForecast": 9660.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T06:00:00",
+        "end": "2023-08-31T07:00:00",
+        "value": "7"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z7",
+      "loadForecast": 11019.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T06:00:00",
+        "end": "2023-08-31T07:00:00",
+        "value": "7"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z8",
+      "loadForecast": 4049.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T06:00:00",
+        "end": "2023-08-31T07:00:00",
+        "value": "7"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z9",
+      "loadForecast": 12198.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T07:00:00",
+        "end": "2023-08-31T08:00:00",
+        "value": "8"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z1",
+      "loadForecast": 11332.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T07:00:00",
+        "end": "2023-08-31T08:00:00",
+        "value": "8"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z10",
+      "loadForecast": 2450.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T07:00:00",
+        "end": "2023-08-31T08:00:00",
+        "value": "8"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z2",
+      "loadForecast": 7301.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T07:00:00",
+        "end": "2023-08-31T08:00:00",
+        "value": "8"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z3",
+      "loadForecast": 6188.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T07:00:00",
+        "end": "2023-08-31T08:00:00",
+        "value": "8"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z4",
+      "loadForecast": 4897.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T07:00:00",
+        "end": "2023-08-31T08:00:00",
+        "value": "8"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z5",
+      "loadForecast": 3753.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T07:00:00",
+        "end": "2023-08-31T08:00:00",
+        "value": "8"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z6",
+      "loadForecast": 9832.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T07:00:00",
+        "end": "2023-08-31T08:00:00",
+        "value": "8"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z7",
+      "loadForecast": 11398.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T07:00:00",
+        "end": "2023-08-31T08:00:00",
+        "value": "8"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z8",
+      "loadForecast": 4114.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T07:00:00",
+        "end": "2023-08-31T08:00:00",
+        "value": "8"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z9",
+      "loadForecast": 12354.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T08:00:00",
+        "end": "2023-08-31T09:00:00",
+        "value": "9"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z1",
+      "loadForecast": 11418.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T08:00:00",
+        "end": "2023-08-31T09:00:00",
+        "value": "9"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z10",
+      "loadForecast": 2586.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T08:00:00",
+        "end": "2023-08-31T09:00:00",
+        "value": "9"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z2",
+      "loadForecast": 7607.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T08:00:00",
+        "end": "2023-08-31T09:00:00",
+        "value": "9"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z3",
+      "loadForecast": 6344.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T08:00:00",
+        "end": "2023-08-31T09:00:00",
+        "value": "9"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z4",
+      "loadForecast": 4954.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T08:00:00",
+        "end": "2023-08-31T09:00:00",
+        "value": "9"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z5",
+      "loadForecast": 3864.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T08:00:00",
+        "end": "2023-08-31T09:00:00",
+        "value": "9"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z6",
+      "loadForecast": 9955.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T08:00:00",
+        "end": "2023-08-31T09:00:00",
+        "value": "9"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z7",
+      "loadForecast": 10847.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T08:00:00",
+        "end": "2023-08-31T09:00:00",
+        "value": "9"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z8",
+      "loadForecast": 4201.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T08:00:00",
+        "end": "2023-08-31T09:00:00",
+        "value": "9"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z9",
+      "loadForecast": 12952.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T09:00:00",
+        "end": "2023-08-31T10:00:00",
+        "value": "10"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z1",
+      "loadForecast": 11471.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T09:00:00",
+        "end": "2023-08-31T10:00:00",
+        "value": "10"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z10",
+      "loadForecast": 2804.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T09:00:00",
+        "end": "2023-08-31T10:00:00",
+        "value": "10"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z2",
+      "loadForecast": 7831.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T09:00:00",
+        "end": "2023-08-31T10:00:00",
+        "value": "10"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z3",
+      "loadForecast": 6480.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T09:00:00",
+        "end": "2023-08-31T10:00:00",
+        "value": "10"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z4",
+      "loadForecast": 5019.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T09:00:00",
+        "end": "2023-08-31T10:00:00",
+        "value": "10"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z5",
+      "loadForecast": 3954.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T09:00:00",
+        "end": "2023-08-31T10:00:00",
+        "value": "10"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z6",
+      "loadForecast": 10103.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T09:00:00",
+        "end": "2023-08-31T10:00:00",
+        "value": "10"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z7",
+      "loadForecast": 11019.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T09:00:00",
+        "end": "2023-08-31T10:00:00",
+        "value": "10"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z8",
+      "loadForecast": 4340.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T09:00:00",
+        "end": "2023-08-31T10:00:00",
+        "value": "10"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z9",
+      "loadForecast": 13829.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T10:00:00",
+        "end": "2023-08-31T11:00:00",
+        "value": "11"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z1",
+      "loadForecast": 11692.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T10:00:00",
+        "end": "2023-08-31T11:00:00",
+        "value": "11"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z10",
+      "loadForecast": 3081.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T10:00:00",
+        "end": "2023-08-31T11:00:00",
+        "value": "11"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z2",
+      "loadForecast": 8015.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T10:00:00",
+        "end": "2023-08-31T11:00:00",
+        "value": "11"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z3",
+      "loadForecast": 6633.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T10:00:00",
+        "end": "2023-08-31T11:00:00",
+        "value": "11"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z4",
+      "loadForecast": 5139.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T10:00:00",
+        "end": "2023-08-31T11:00:00",
+        "value": "11"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z5",
+      "loadForecast": 4052.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T10:00:00",
+        "end": "2023-08-31T11:00:00",
+        "value": "11"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z6",
+      "loadForecast": 10243.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T10:00:00",
+        "end": "2023-08-31T11:00:00",
+        "value": "11"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z7",
+      "loadForecast": 11137.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T10:00:00",
+        "end": "2023-08-31T11:00:00",
+        "value": "11"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z8",
+      "loadForecast": 4486.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T10:00:00",
+        "end": "2023-08-31T11:00:00",
+        "value": "11"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z9",
+      "loadForecast": 14827.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T11:00:00",
+        "end": "2023-08-31T12:00:00",
+        "value": "12"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z1",
+      "loadForecast": 12011.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T11:00:00",
+        "end": "2023-08-31T12:00:00",
+        "value": "12"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z10",
+      "loadForecast": 3366.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T11:00:00",
+        "end": "2023-08-31T12:00:00",
+        "value": "12"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z2",
+      "loadForecast": 8150.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T11:00:00",
+        "end": "2023-08-31T12:00:00",
+        "value": "12"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z3",
+      "loadForecast": 6789.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T11:00:00",
+        "end": "2023-08-31T12:00:00",
+        "value": "12"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z4",
+      "loadForecast": 5244.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T11:00:00",
+        "end": "2023-08-31T12:00:00",
+        "value": "12"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z5",
+      "loadForecast": 4188.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T11:00:00",
+        "end": "2023-08-31T12:00:00",
+        "value": "12"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z6",
+      "loadForecast": 10424.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T11:00:00",
+        "end": "2023-08-31T12:00:00",
+        "value": "12"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z7",
+      "loadForecast": 11306.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T11:00:00",
+        "end": "2023-08-31T12:00:00",
+        "value": "12"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z8",
+      "loadForecast": 4680.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T11:00:00",
+        "end": "2023-08-31T12:00:00",
+        "value": "12"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z9",
+      "loadForecast": 15822.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T12:00:00",
+        "end": "2023-08-31T13:00:00",
+        "value": "13"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z1",
+      "loadForecast": 12383.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T12:00:00",
+        "end": "2023-08-31T13:00:00",
+        "value": "13"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z10",
+      "loadForecast": 3632.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T12:00:00",
+        "end": "2023-08-31T13:00:00",
+        "value": "13"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z2",
+      "loadForecast": 8285.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T12:00:00",
+        "end": "2023-08-31T13:00:00",
+        "value": "13"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z3",
+      "loadForecast": 6950.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T12:00:00",
+        "end": "2023-08-31T13:00:00",
+        "value": "13"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z4",
+      "loadForecast": 5366.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T12:00:00",
+        "end": "2023-08-31T13:00:00",
+        "value": "13"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z5",
+      "loadForecast": 4405.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T12:00:00",
+        "end": "2023-08-31T13:00:00",
+        "value": "13"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z6",
+      "loadForecast": 10667.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T12:00:00",
+        "end": "2023-08-31T13:00:00",
+        "value": "13"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z7",
+      "loadForecast": 11563.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T12:00:00",
+        "end": "2023-08-31T13:00:00",
+        "value": "13"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z8",
+      "loadForecast": 4907.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T12:00:00",
+        "end": "2023-08-31T13:00:00",
+        "value": "13"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z9",
+      "loadForecast": 16732.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T13:00:00",
+        "end": "2023-08-31T14:00:00",
+        "value": "14"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z1",
+      "loadForecast": 12772.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T13:00:00",
+        "end": "2023-08-31T14:00:00",
+        "value": "14"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z10",
+      "loadForecast": 3845.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T13:00:00",
+        "end": "2023-08-31T14:00:00",
+        "value": "14"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z2",
+      "loadForecast": 8451.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T13:00:00",
+        "end": "2023-08-31T14:00:00",
+        "value": "14"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z3",
+      "loadForecast": 7163.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T13:00:00",
+        "end": "2023-08-31T14:00:00",
+        "value": "14"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z4",
+      "loadForecast": 5519.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T13:00:00",
+        "end": "2023-08-31T14:00:00",
+        "value": "14"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z5",
+      "loadForecast": 4672.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T13:00:00",
+        "end": "2023-08-31T14:00:00",
+        "value": "14"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z6",
+      "loadForecast": 10930.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T13:00:00",
+        "end": "2023-08-31T14:00:00",
+        "value": "14"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z7",
+      "loadForecast": 11748.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T13:00:00",
+        "end": "2023-08-31T14:00:00",
+        "value": "14"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z8",
+      "loadForecast": 5158.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T13:00:00",
+        "end": "2023-08-31T14:00:00",
+        "value": "14"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z9",
+      "loadForecast": 17499.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T14:00:00",
+        "end": "2023-08-31T15:00:00",
+        "value": "15"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z1",
+      "loadForecast": 13074.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T14:00:00",
+        "end": "2023-08-31T15:00:00",
+        "value": "15"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z10",
+      "loadForecast": 3974.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T14:00:00",
+        "end": "2023-08-31T15:00:00",
+        "value": "15"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z2",
+      "loadForecast": 8559.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T14:00:00",
+        "end": "2023-08-31T15:00:00",
+        "value": "15"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z3",
+      "loadForecast": 7331.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T14:00:00",
+        "end": "2023-08-31T15:00:00",
+        "value": "15"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z4",
+      "loadForecast": 5674.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T14:00:00",
+        "end": "2023-08-31T15:00:00",
+        "value": "15"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z5",
+      "loadForecast": 4911.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T14:00:00",
+        "end": "2023-08-31T15:00:00",
+        "value": "15"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z6",
+      "loadForecast": 11242.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T14:00:00",
+        "end": "2023-08-31T15:00:00",
+        "value": "15"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z7",
+      "loadForecast": 11850.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T14:00:00",
+        "end": "2023-08-31T15:00:00",
+        "value": "15"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z8",
+      "loadForecast": 5361.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T14:00:00",
+        "end": "2023-08-31T15:00:00",
+        "value": "15"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z9",
+      "loadForecast": 18007.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T15:00:00",
+        "end": "2023-08-31T16:00:00",
+        "value": "16"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z1",
+      "loadForecast": 13319.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T15:00:00",
+        "end": "2023-08-31T16:00:00",
+        "value": "16"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z10",
+      "loadForecast": 4027.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T15:00:00",
+        "end": "2023-08-31T16:00:00",
+        "value": "16"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z2",
+      "loadForecast": 8632.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T15:00:00",
+        "end": "2023-08-31T16:00:00",
+        "value": "16"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z3",
+      "loadForecast": 7465.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T15:00:00",
+        "end": "2023-08-31T16:00:00",
+        "value": "16"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z4",
+      "loadForecast": 5827.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T15:00:00",
+        "end": "2023-08-31T16:00:00",
+        "value": "16"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z5",
+      "loadForecast": 5087.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T15:00:00",
+        "end": "2023-08-31T16:00:00",
+        "value": "16"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z6",
+      "loadForecast": 11545.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T15:00:00",
+        "end": "2023-08-31T16:00:00",
+        "value": "16"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z7",
+      "loadForecast": 11904.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T15:00:00",
+        "end": "2023-08-31T16:00:00",
+        "value": "16"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z8",
+      "loadForecast": 5517.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T15:00:00",
+        "end": "2023-08-31T16:00:00",
+        "value": "16"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z9",
+      "loadForecast": 18339.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T16:00:00",
+        "end": "2023-08-31T17:00:00",
+        "value": "17"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z1",
+      "loadForecast": 13540.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T16:00:00",
+        "end": "2023-08-31T17:00:00",
+        "value": "17"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z10",
+      "loadForecast": 4024.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T16:00:00",
+        "end": "2023-08-31T17:00:00",
+        "value": "17"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z2",
+      "loadForecast": 8672.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T16:00:00",
+        "end": "2023-08-31T17:00:00",
+        "value": "17"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z3",
+      "loadForecast": 7550.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T16:00:00",
+        "end": "2023-08-31T17:00:00",
+        "value": "17"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z4",
+      "loadForecast": 5972.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T16:00:00",
+        "end": "2023-08-31T17:00:00",
+        "value": "17"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z5",
+      "loadForecast": 5202.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T16:00:00",
+        "end": "2023-08-31T17:00:00",
+        "value": "17"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z6",
+      "loadForecast": 11747.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T16:00:00",
+        "end": "2023-08-31T17:00:00",
+        "value": "17"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z7",
+      "loadForecast": 11950.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T16:00:00",
+        "end": "2023-08-31T17:00:00",
+        "value": "17"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z8",
+      "loadForecast": 5600.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T16:00:00",
+        "end": "2023-08-31T17:00:00",
+        "value": "17"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z9",
+      "loadForecast": 18438.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T17:00:00",
+        "end": "2023-08-31T18:00:00",
+        "value": "18"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z1",
+      "loadForecast": 13675.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T17:00:00",
+        "end": "2023-08-31T18:00:00",
+        "value": "18"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z10",
+      "loadForecast": 3940.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T17:00:00",
+        "end": "2023-08-31T18:00:00",
+        "value": "18"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z2",
+      "loadForecast": 8636.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T17:00:00",
+        "end": "2023-08-31T18:00:00",
+        "value": "18"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z3",
+      "loadForecast": 7539.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T17:00:00",
+        "end": "2023-08-31T18:00:00",
+        "value": "18"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z4",
+      "loadForecast": 5994.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T17:00:00",
+        "end": "2023-08-31T18:00:00",
+        "value": "18"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z5",
+      "loadForecast": 5203.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T17:00:00",
+        "end": "2023-08-31T18:00:00",
+        "value": "18"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z6",
+      "loadForecast": 11755.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T17:00:00",
+        "end": "2023-08-31T18:00:00",
+        "value": "18"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z7",
+      "loadForecast": 11886.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T17:00:00",
+        "end": "2023-08-31T18:00:00",
+        "value": "18"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z8",
+      "loadForecast": 5561.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T17:00:00",
+        "end": "2023-08-31T18:00:00",
+        "value": "18"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z9",
+      "loadForecast": 18286.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T18:00:00",
+        "end": "2023-08-31T19:00:00",
+        "value": "19"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z1",
+      "loadForecast": 13596.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T18:00:00",
+        "end": "2023-08-31T19:00:00",
+        "value": "19"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z10",
+      "loadForecast": 3805.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T18:00:00",
+        "end": "2023-08-31T19:00:00",
+        "value": "19"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z2",
+      "loadForecast": 8441.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T18:00:00",
+        "end": "2023-08-31T19:00:00",
+        "value": "19"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z3",
+      "loadForecast": 7387.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T18:00:00",
+        "end": "2023-08-31T19:00:00",
+        "value": "19"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z4",
+      "loadForecast": 5870.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T18:00:00",
+        "end": "2023-08-31T19:00:00",
+        "value": "19"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z5",
+      "loadForecast": 5026.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T18:00:00",
+        "end": "2023-08-31T19:00:00",
+        "value": "19"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z6",
+      "loadForecast": 11551.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T18:00:00",
+        "end": "2023-08-31T19:00:00",
+        "value": "19"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z7",
+      "loadForecast": 11624.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T18:00:00",
+        "end": "2023-08-31T19:00:00",
+        "value": "19"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z8",
+      "loadForecast": 5453.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T18:00:00",
+        "end": "2023-08-31T19:00:00",
+        "value": "19"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z9",
+      "loadForecast": 17818.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T19:00:00",
+        "end": "2023-08-31T20:00:00",
+        "value": "20"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z1",
+      "loadForecast": 13375.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T19:00:00",
+        "end": "2023-08-31T20:00:00",
+        "value": "20"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z10",
+      "loadForecast": 3608.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T19:00:00",
+        "end": "2023-08-31T20:00:00",
+        "value": "20"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z2",
+      "loadForecast": 8142.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T19:00:00",
+        "end": "2023-08-31T20:00:00",
+        "value": "20"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z3",
+      "loadForecast": 7129.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T19:00:00",
+        "end": "2023-08-31T20:00:00",
+        "value": "20"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z4",
+      "loadForecast": 5658.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T19:00:00",
+        "end": "2023-08-31T20:00:00",
+        "value": "20"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z5",
+      "loadForecast": 4736.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T19:00:00",
+        "end": "2023-08-31T20:00:00",
+        "value": "20"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z6",
+      "loadForecast": 11144.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T19:00:00",
+        "end": "2023-08-31T20:00:00",
+        "value": "20"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z7",
+      "loadForecast": 11285.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T19:00:00",
+        "end": "2023-08-31T20:00:00",
+        "value": "20"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z8",
+      "loadForecast": 5235.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T19:00:00",
+        "end": "2023-08-31T20:00:00",
+        "value": "20"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z9",
+      "loadForecast": 17093.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T20:00:00",
+        "end": "2023-08-31T21:00:00",
+        "value": "21"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z1",
+      "loadForecast": 13112.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T20:00:00",
+        "end": "2023-08-31T21:00:00",
+        "value": "21"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z10",
+      "loadForecast": 3494.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T20:00:00",
+        "end": "2023-08-31T21:00:00",
+        "value": "21"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z2",
+      "loadForecast": 8024.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T20:00:00",
+        "end": "2023-08-31T21:00:00",
+        "value": "21"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z3",
+      "loadForecast": 6908.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T20:00:00",
+        "end": "2023-08-31T21:00:00",
+        "value": "21"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z4",
+      "loadForecast": 5534.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T20:00:00",
+        "end": "2023-08-31T21:00:00",
+        "value": "21"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z5",
+      "loadForecast": 4488.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T20:00:00",
+        "end": "2023-08-31T21:00:00",
+        "value": "21"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z6",
+      "loadForecast": 10819.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T20:00:00",
+        "end": "2023-08-31T21:00:00",
+        "value": "21"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z7",
+      "loadForecast": 11056.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T20:00:00",
+        "end": "2023-08-31T21:00:00",
+        "value": "21"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z8",
+      "loadForecast": 5076.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T20:00:00",
+        "end": "2023-08-31T21:00:00",
+        "value": "21"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z9",
+      "loadForecast": 16593.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T21:00:00",
+        "end": "2023-08-31T22:00:00",
+        "value": "22"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z1",
+      "loadForecast": 12718.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T21:00:00",
+        "end": "2023-08-31T22:00:00",
+        "value": "22"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z10",
+      "loadForecast": 3306.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T21:00:00",
+        "end": "2023-08-31T22:00:00",
+        "value": "22"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z2",
+      "loadForecast": 7722.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T21:00:00",
+        "end": "2023-08-31T22:00:00",
+        "value": "22"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z3",
+      "loadForecast": 6680.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T21:00:00",
+        "end": "2023-08-31T22:00:00",
+        "value": "22"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z4",
+      "loadForecast": 5326.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T21:00:00",
+        "end": "2023-08-31T22:00:00",
+        "value": "22"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z5",
+      "loadForecast": 4237.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T21:00:00",
+        "end": "2023-08-31T22:00:00",
+        "value": "22"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z6",
+      "loadForecast": 10210.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T21:00:00",
+        "end": "2023-08-31T22:00:00",
+        "value": "22"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z7",
+      "loadForecast": 10444.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T21:00:00",
+        "end": "2023-08-31T22:00:00",
+        "value": "22"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z8",
+      "loadForecast": 4830.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T21:00:00",
+        "end": "2023-08-31T22:00:00",
+        "value": "22"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z9",
+      "loadForecast": 15910.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T22:00:00",
+        "end": "2023-08-31T23:00:00",
+        "value": "23"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z1",
+      "loadForecast": 11973.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T22:00:00",
+        "end": "2023-08-31T23:00:00",
+        "value": "23"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z10",
+      "loadForecast": 3056.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T22:00:00",
+        "end": "2023-08-31T23:00:00",
+        "value": "23"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z2",
+      "loadForecast": 7254.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T22:00:00",
+        "end": "2023-08-31T23:00:00",
+        "value": "23"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z3",
+      "loadForecast": 6338.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T22:00:00",
+        "end": "2023-08-31T23:00:00",
+        "value": "23"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z4",
+      "loadForecast": 5013.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T22:00:00",
+        "end": "2023-08-31T23:00:00",
+        "value": "23"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z5",
+      "loadForecast": 3892.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T22:00:00",
+        "end": "2023-08-31T23:00:00",
+        "value": "23"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z6",
+      "loadForecast": 9535.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T22:00:00",
+        "end": "2023-08-31T23:00:00",
+        "value": "23"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z7",
+      "loadForecast": 10546.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T22:00:00",
+        "end": "2023-08-31T23:00:00",
+        "value": "23"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z8",
+      "loadForecast": 4542.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T22:00:00",
+        "end": "2023-08-31T23:00:00",
+        "value": "23"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z9",
+      "loadForecast": 15053.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T23:00:00",
+        "end": "2023-09-01T00:00:00",
+        "value": "24"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z1",
+      "loadForecast": 11133.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T23:00:00",
+        "end": "2023-09-01T00:00:00",
+        "value": "24"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z10",
+      "loadForecast": 2819.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T23:00:00",
+        "end": "2023-09-01T00:00:00",
+        "value": "24"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z2",
+      "loadForecast": 6804.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T23:00:00",
+        "end": "2023-09-01T00:00:00",
+        "value": "24"
+      },
+      "region": "NORTH",
+      "localResourceZone": "Z3",
+      "loadForecast": 5999.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T23:00:00",
+        "end": "2023-09-01T00:00:00",
+        "value": "24"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z4",
+      "loadForecast": 4726.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T23:00:00",
+        "end": "2023-09-01T00:00:00",
+        "value": "24"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z5",
+      "loadForecast": 3560.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T23:00:00",
+        "end": "2023-09-01T00:00:00",
+        "value": "24"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z6",
+      "loadForecast": 8970.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T23:00:00",
+        "end": "2023-09-01T00:00:00",
+        "value": "24"
+      },
+      "region": "CENTRAL",
+      "localResourceZone": "Z7",
+      "loadForecast": 10197.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T23:00:00",
+        "end": "2023-09-01T00:00:00",
+        "value": "24"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z8",
+      "loadForecast": 4270.0,
+      "init": "2023-08-30"
+    },
+    {
+      "timeInterval": {
+        "resolution": "hourly",
+        "start": "2023-08-31T23:00:00",
+        "end": "2023-09-01T00:00:00",
+        "value": "24"
+      },
+      "region": "SOUTH",
+      "localResourceZone": "Z9",
+      "loadForecast": 14210.0,
+      "init": "2023-08-30"
+    }
+  ],
+  "page": {
+    "pageNumber": 1,
+    "pageSize": 1000,
+    "totalElements": 240,
+    "totalPages": 1,
+    "lastPage": true
+  }
+}
