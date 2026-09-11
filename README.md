@@ -51,8 +51,8 @@ tests/            Fast unit tests plus optional Spark integration tests
 1. Create a Databricks Free Edition workspace and a Git folder from this repository.
 2. Open the Git folder in the Databricks editor. In the environment panel, apply the root `pyproject.toml`, then select **Git Folder Serverless** as the notebook compute. The shared environment installs this project without replacing Databricks' built-in PySpark or Delta Lake.
 3. Open `databricks/notebooks/00_setup.py` and run it. It creates `bronze`, `silver`, `gold`, and `ops` schemas in the Free Edition `workspace` catalog.
-4. Run `01_bronze.py`, `02_silver.py`, and `03_gold.py` in order. Their defaults load the verified complete day in `sample_data/`.
-5. Run `04_validate.py`; it fails if blocking quality rules fail.
+4. Run `01_bronze.py`, `02_silver.py`, and `04_validate.py` in order. Validation fails before Gold if a blocking quality rule fails.
+5. Run `03_gold.py` to publish the verified Silver data.
 6. Create an AI/BI dashboard using the queries in `sql/dashboard_queries.sql`; the proposed layout is in [docs/dashboard.md](docs/dashboard.md).
 
 The notebooks default to the `workspace` catalog because Free Edition might not permit creating a custom catalog. Change the widget only in a workspace where you already created and can use another catalog.

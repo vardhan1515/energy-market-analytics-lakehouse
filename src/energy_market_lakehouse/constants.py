@@ -1,6 +1,6 @@
 """Stable domain constants shared by ingestion and transformation code."""
 
-MISO_MARKET_TIMEZONE = "America/Chicago"
+MISO_MARKET_TIMEZONE = "America/New_York"
 EXPECTED_REGIONS = frozenset({"CENTRAL", "NORTH", "SOUTH"})
 EXPECTED_ZONES = frozenset(f"Z{number}" for number in range(1, 11))
 

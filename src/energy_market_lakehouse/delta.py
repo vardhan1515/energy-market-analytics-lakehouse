@@ -42,3 +42,22 @@ def merge_upsert(spark, frame, table_name: str, keys: Sequence[str]) -> None:
         )
     finally:
         spark.catalog.dropTempView(view)
+
+
+def replace_matching_values(spark, table_name: str, values, column: str) -> None:
+    """Delete target rows for values being recomputed before a deterministic rebuild."""
+    if not spark.catalog.tableExists(table_name):
+        return
+    distinct_values = values.select(column).where(f"`{column}` IS NOT NULL").distinct()
+    if not distinct_values.limit(1).count():
+        return
+    view = f"replacement_values_{uuid4().hex}"
+    distinct_values.createOrReplaceTempView(view)
+    try:
+        spark.sql(
+            f"DELETE FROM {table_name} AS target WHERE EXISTS "
+            f"(SELECT 1 FROM {view} AS source "
+            f"WHERE target.`{column}` <=> source.`{column}`)"
+        )
+    finally:
+        spark.catalog.dropTempView(view)

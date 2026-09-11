@@ -2,8 +2,8 @@
 
 from __future__ import annotations
 
-from .constants import EXPECTED_REGIONS, EXPECTED_ZONES
-from .delta import merge_insert_only, merge_upsert
+from .constants import EXPECTED_REGIONS, EXPECTED_ZONES, MISO_MARKET_TIMEZONE
+from .delta import merge_insert_only, merge_upsert, replace_matching_values
 from .schemas import actual_load_payload_schema, load_forecast_payload_schema
 
 
@@ -18,10 +18,10 @@ def parse_actual_load(bronze_frame):
     )
     return parsed.select(
         F.to_date("r.timeInterval.start").alias("market_date"),
-        F.to_utc_timestamp(F.to_timestamp("r.timeInterval.start"), "America/New_York").alias(
+        F.to_utc_timestamp(F.to_timestamp("r.timeInterval.start"), MISO_MARKET_TIMEZONE).alias(
             "interval_start_utc"
         ),
-        F.to_utc_timestamp(F.to_timestamp("r.timeInterval.end"), "America/New_York").alias(
+        F.to_utc_timestamp(F.to_timestamp("r.timeInterval.end"), MISO_MARKET_TIMEZONE).alias(
             "interval_end_utc"
         ),
         F.col("r.timeInterval.value").cast("smallint").alias("hour_ending"),
@@ -45,10 +45,10 @@ def parse_load_forecast(bronze_frame):
     return parsed.select(
         F.to_date("r.timeInterval.start").alias("market_date"),
         F.to_date("r.init").alias("forecast_init_date"),
-        F.to_utc_timestamp(F.to_timestamp("r.timeInterval.start"), "America/New_York").alias(
+        F.to_utc_timestamp(F.to_timestamp("r.timeInterval.start"), MISO_MARKET_TIMEZONE).alias(
             "interval_start_utc"
         ),
-        F.to_utc_timestamp(F.to_timestamp("r.timeInterval.end"), "America/New_York").alias(
+        F.to_utc_timestamp(F.to_timestamp("r.timeInterval.end"), MISO_MARKET_TIMEZONE).alias(
             "interval_end_utc"
         ),
         F.col("r.timeInterval.value").cast("smallint").alias("hour_ending"),
@@ -163,6 +163,18 @@ def validate_history(actual, forecast):
 
 
 def write_history_silver(spark, actual, forecast, quarantine, names) -> None:
+    actual_dates = actual.select("market_date").unionByName(
+        quarantine.where("dataset_name = 'actual_load'").select("market_date")
+    )
+    forecast_dates = forecast.select("market_date").unionByName(
+        quarantine.where("dataset_name = 'load_forecast'").select("market_date")
+    )
+    replace_matching_values(
+        spark, names.table("silver", "actual_load_hourly"), actual_dates, "market_date"
+    )
+    replace_matching_values(
+        spark, names.table("silver", "load_forecast_hourly"), forecast_dates, "market_date"
+    )
     merge_upsert(
         spark,
         actual,
@@ -175,7 +187,7 @@ def write_history_silver(spark, actual, forecast, quarantine, names) -> None:
         names.table("silver", "load_forecast_hourly"),
         ["forecast_init_date", "interval_start_utc", "local_resource_zone"],
     )
-    if not quarantine.rdd.isEmpty():
+    if quarantine.limit(1).count():
         merge_insert_only(
             spark,
             quarantine,

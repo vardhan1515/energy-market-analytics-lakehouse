@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+from collections.abc import Sequence
+
 from .delta import merge_insert_only
 
 
@@ -23,6 +25,35 @@ def landing_files(spark, path: str, source_name: str, dataset_name: str, batch_i
     )
 
 
+def landing_payloads(
+    spark,
+    files: Sequence[tuple[str, str]],
+    source_name: str,
+    dataset_name: str,
+    batch_id: str,
+):
+    """Build Bronze rows from files read by the driver.
+
+    Databricks serverless executors cannot read ``file:/Workspace`` paths. Git-folder
+    notebooks therefore read their small checked-in samples on the driver and pass
+    the payloads through this DataFrame-only boundary.
+    """
+    from pyspark.sql import functions as F
+
+    return (
+        spark.createDataFrame(files, "raw_file_name string, raw_payload string")
+        .select(
+            F.lit(source_name).alias("source_name"),
+            F.lit(dataset_name).alias("dataset_name"),
+            F.current_timestamp().alias("ingestion_timestamp_utc"),
+            F.lit(batch_id).alias("batch_id"),
+            "raw_file_name",
+            "raw_payload",
+        )
+        .withColumn("record_checksum", F.sha2("raw_payload", 256))
+    )
+
+
 def ingest_bronze_files(
     spark,
     *,
@@ -33,5 +64,19 @@ def ingest_bronze_files(
     table_name: str,
 ) -> int:
     frame = landing_files(spark, path, source_name, dataset_name, batch_id)
+    merge_insert_only(spark, frame, table_name, ["record_checksum"])
+    return frame.count()
+
+
+def ingest_bronze_payloads(
+    spark,
+    *,
+    files: Sequence[tuple[str, str]],
+    source_name: str,
+    dataset_name: str,
+    batch_id: str,
+    table_name: str,
+) -> int:
+    frame = landing_payloads(spark, files, source_name, dataset_name, batch_id)
     merge_insert_only(spark, frame, table_name, ["record_checksum"])
     return frame.count()

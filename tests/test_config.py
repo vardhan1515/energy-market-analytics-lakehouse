@@ -8,6 +8,9 @@ from energy_market_lakehouse.config import LakehouseNames, Settings
 
 
 class ConfigTests(unittest.TestCase):
+    def test_default_catalog_matches_databricks_free_edition(self) -> None:
+        self.assertEqual(LakehouseNames().catalog, "workspace")
+
     def test_table_names_are_qualified(self) -> None:
         self.assertEqual(
             LakehouseNames("demo").table("silver", "actual_load_hourly"),

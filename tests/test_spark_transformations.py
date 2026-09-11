@@ -10,6 +10,28 @@ SAMPLE = Path(__file__).parents[1] / "sample_data" / "miso" / "2023-09-01"
 
 @unittest.skipUnless(HAS_PYSPARK, "PySpark is not installed")
 class SparkTransformationTests(unittest.TestCase):
+    def test_driver_payloads_create_serverless_safe_bronze_rows(self) -> None:
+        from pyspark.sql import SparkSession
+
+        from energy_market_lakehouse.bronze import landing_payloads
+
+        spark = SparkSession.builder.master("local[1]").appName("lakehouse-test").getOrCreate()
+        try:
+            raw = (SAMPLE / "actual_load_page_0001.json").read_text(encoding="utf-8")
+            frame = landing_payloads(
+                spark,
+                [("actual_load_page_0001.json", raw)],
+                "MISO Data Exchange",
+                "actual_load",
+                "sample",
+            )
+            row = frame.first()
+            self.assertEqual(row.dataset_name, "actual_load")
+            self.assertEqual(row.raw_payload, raw)
+            self.assertEqual(len(row.record_checksum), 64)
+        finally:
+            spark.stop()
+
     def test_complete_real_day_passes_silver_validation(self) -> None:
         from pyspark.sql import SparkSession
 

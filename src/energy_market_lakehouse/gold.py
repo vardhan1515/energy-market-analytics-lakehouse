@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from .constants import MISO_MARKET_TIMEZONE
 from .delta import merge_upsert
 
 
@@ -32,6 +33,14 @@ def build_energy_load_fact(actual, forecast):
             F.when(
                 F.col("actual_load_mw") > 0,
                 F.col("absolute_error_mw") / F.col("actual_load_mw") * 100,
+            ),
+        )
+        .withColumn("date_key", F.date_format("market_date", "yyyyMMdd").cast("int"))
+        .withColumn("region_key", F.xxhash64("region"))
+        .withColumn(
+            "hour",
+            F.hour(F.from_utc_timestamp("interval_start_utc", MISO_MARKET_TIMEZONE)).cast(
+                "smallint"
             ),
         )
         .withColumn("updated_at_utc", F.current_timestamp())

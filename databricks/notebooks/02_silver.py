@@ -31,29 +31,32 @@ write_history_silver(spark, valid_actual, valid_forecast, quarantine, names)
 # COMMAND ----------
 
 run_id = datetime.now(UTC).strftime("%Y%m%dT%H%M%S%fZ")
+actual_count = valid_actual.count()
+forecast_count = valid_forecast.count()
+quarantine_count = quarantine.count()
 metrics = [
     (
         run_id,
         "actual_load_hourly",
         "nonempty_valid_output",
-        0 if valid_actual.count() else 1,
-        "PASS" if valid_actual.count() else "FAIL",
+        0 if actual_count else 1,
+        "PASS" if actual_count else "FAIL",
         True,
     ),
     (
         run_id,
         "load_forecast_hourly",
         "nonempty_valid_output",
-        0 if valid_forecast.count() else 1,
-        "PASS" if valid_forecast.count() else "FAIL",
+        0 if forecast_count else 1,
+        "PASS" if forecast_count else "FAIL",
         True,
     ),
     (
         run_id,
         "historical_load",
         "quarantined_rows",
-        quarantine.count(),
-        "PASS" if quarantine.count() == 0 else "WARN",
+        quarantine_count,
+        "PASS" if quarantine_count == 0 else "WARN",
         False,
     ),
 ]

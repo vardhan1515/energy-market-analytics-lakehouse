@@ -32,7 +32,7 @@ class Settings:
 
 @dataclass(frozen=True)
 class LakehouseNames:
-    catalog: str = "energy_market"
+    catalog: str = "workspace"
 
     def table(self, layer: str, name: str) -> str:
         if layer not in {"bronze", "silver", "gold", "ops"}:
