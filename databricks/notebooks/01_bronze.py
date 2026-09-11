@@ -7,7 +7,7 @@
 
 from pathlib import Path
 
-dbutils.widgets.text("catalog", "energy_market", "Target catalog")
+dbutils.widgets.text("catalog", "workspace", "Target catalog")
 dbutils.widgets.text("sample_root", "../../sample_data/miso/2023-09-01", "Landing path")
 dbutils.widgets.text("batch_id", "sample-2023-09-01", "Batch identifier")
 catalog = dbutils.widgets.get("catalog")

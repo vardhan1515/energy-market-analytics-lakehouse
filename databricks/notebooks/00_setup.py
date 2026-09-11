@@ -5,11 +5,7 @@
 
 # COMMAND ----------
 
-# MAGIC %pip install -e ../..
-
-# COMMAND ----------
-
-dbutils.widgets.text("catalog", "energy_market", "Target catalog")
+dbutils.widgets.text("catalog", "workspace", "Target catalog")
 catalog = dbutils.widgets.get("catalog")
 
 # COMMAND ----------

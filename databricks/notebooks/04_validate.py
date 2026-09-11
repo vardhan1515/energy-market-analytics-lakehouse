@@ -5,7 +5,7 @@
 
 # COMMAND ----------
 
-dbutils.widgets.text("catalog", "energy_market", "Target catalog")
+dbutils.widgets.text("catalog", "workspace", "Target catalog")
 catalog = dbutils.widgets.get("catalog")
 
 from energy_market_lakehouse.quality import assert_no_blocking_failures

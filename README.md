@@ -49,12 +49,13 @@ tests/            Fast unit tests plus optional Spark integration tests
 ## Quick start in Databricks Free Edition
 
 1. Create a Databricks Free Edition workspace and a Git folder from this repository.
-2. Open `databricks/notebooks/00_setup.py` and run it on serverless compute. It installs the project and creates the catalog/schema configured by widgets.
-3. Run `01_bronze.py`, `02_silver.py`, and `03_gold.py` in order. Their defaults load the verified complete day in `sample_data/` and use the `energy_market` catalog with `bronze`, `silver`, `gold`, and `ops` schemas.
-4. Run `04_validate.py`; it fails if blocking quality rules fail.
-5. Create an AI/BI dashboard using the queries in `sql/dashboard_queries.sql`; the proposed layout is in [docs/dashboard.md](docs/dashboard.md).
+2. Open the Git folder in the Databricks editor. In the environment panel, apply the root `pyproject.toml`, then select **Git Folder Serverless** as the notebook compute. The shared environment installs this project without replacing Databricks' built-in PySpark or Delta Lake.
+3. Open `databricks/notebooks/00_setup.py` and run it. It creates `bronze`, `silver`, `gold`, and `ops` schemas in the Free Edition `workspace` catalog.
+4. Run `01_bronze.py`, `02_silver.py`, and `03_gold.py` in order. Their defaults load the verified complete day in `sample_data/`.
+5. Run `04_validate.py`; it fails if blocking quality rules fail.
+6. Create an AI/BI dashboard using the queries in `sql/dashboard_queries.sql`; the proposed layout is in [docs/dashboard.md](docs/dashboard.md).
 
-Free Edition capabilities can vary by workspace. If custom catalogs are unavailable, set the catalog widget to `workspace`.
+The notebooks default to the `workspace` catalog because Free Edition might not permit creating a custom catalog. Change the widget only in a workspace where you already created and can use another catalog.
 
 ## Local development
 
@@ -63,7 +64,7 @@ Requires Python 3.11–3.13 and Java 17 for local Spark. Python 3.14 is not curr
 ```powershell
 py -3.12 -m venv .venv
 .venv\Scripts\Activate.ps1
-python -m pip install -e ".[dev]"
+python -m pip install -e ".[dev,spark]"
 pytest
 ```
 
