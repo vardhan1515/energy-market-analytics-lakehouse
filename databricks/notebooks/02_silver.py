@@ -5,6 +5,10 @@
 
 # COMMAND ----------
 
+# MAGIC %run ./_bootstrap
+
+# COMMAND ----------
+
 dbutils.widgets.text("catalog", "workspace", "Target catalog")
 catalog = dbutils.widgets.get("catalog")
 

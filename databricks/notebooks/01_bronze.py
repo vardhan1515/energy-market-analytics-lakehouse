@@ -5,6 +5,10 @@
 
 # COMMAND ----------
 
+# MAGIC %run ./_bootstrap
+
+# COMMAND ----------
+
 from pathlib import Path
 
 dbutils.widgets.text("catalog", "workspace", "Target catalog")

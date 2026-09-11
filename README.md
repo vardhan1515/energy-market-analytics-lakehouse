@@ -49,7 +49,7 @@ tests/            Fast unit tests plus optional Spark integration tests
 ## Quick start in Databricks Free Edition
 
 1. Create a Databricks Free Edition workspace and a Git folder from this repository.
-2. Open the Git folder in the Databricks editor. In the environment panel, apply the root `pyproject.toml`, then select **Git Folder Serverless** as the notebook compute. The shared environment installs this project without replacing Databricks' built-in PySpark or Delta Lake.
+2. Open the Git folder in the Databricks editor and select **Git Folder Serverless** as the notebook compute. The notebooks use the declared Standard v5 environment and a checked-in bootstrap to expose the `src` package without replacing Databricks' built-in PySpark or Delta Lake.
 3. Open `databricks/notebooks/00_setup.py` and run it. It creates `bronze`, `silver`, `gold`, and `ops` schemas in the Free Edition `workspace` catalog.
 4. Run `01_bronze.py`, `02_silver.py`, and `04_validate.py` in order. Validation fails before Gold if a blocking quality rule fails.
 5. Run `03_gold.py` to publish the verified Silver data.
