@@ -84,6 +84,11 @@ energy-lakehouse ingest-weather --start-date 2026-08-20 --end-date 2026-08-20
 
 Historical load endpoints require `MISO_API_TOKEN`. MISO public endpoints and Open-Meteo do not. Every run writes immutable source responses and a manifest containing endpoint, retrieval time, record counts, and SHA-256 checksums. Existing batches are rejected unless an explicit new batch identifier is supplied.
 
+For Databricks, store the token as `energy-market/miso-api-token` in a Databricks-backed
+secret scope. `Settings.from_databricks_secret(dbutils)` reads it without placing the value in
+Git or notebook source. Run `databricks/notebooks/05_miso_access_test.py` to make one authenticated
+request and print only the dataset, market date, and first-page row count.
+
 ## Idempotency and quality
 
 Bronze rows are keyed by `record_checksum`; Silver and Gold tables use documented business keys. Delta `MERGE` makes reruns deterministic, and failed runs remain retryable. Invalid rows go to `silver.quarantined_records`; rule-level outcomes go to `ops.data_quality_results`.

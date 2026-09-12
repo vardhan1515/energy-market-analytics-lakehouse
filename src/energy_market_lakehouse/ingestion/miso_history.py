@@ -15,6 +15,16 @@ from ..validation import validate_history_payload
 from .http import IngestionError, get_json
 
 
+def _authenticated_headers(settings: Settings) -> dict[str, str]:
+    if not settings.miso_api_token:
+        raise IngestionError("MISO_API_TOKEN is required for historical ingestion")
+    return {
+        "Accept": "application/json",
+        "Ocp-Apim-Subscription-Key": settings.miso_api_token,
+        "User-Agent": "energy-market-analytics-lakehouse/0.1",
+    }
+
+
 def _fetch_pages(client: httpx.Client, endpoint: str, dataset: str) -> list[dict[str, Any]]:
     pages: list[dict[str, Any]] = []
     page_number = 0
@@ -44,9 +54,35 @@ def _fetch_pages(client: httpx.Client, endpoint: str, dataset: str) -> list[dict
     return pages
 
 
+def check_history_access(
+    market_date: date,
+    settings: Settings,
+    dataset: str = "actual_load",
+) -> dict[str, str | int]:
+    """Make one authenticated request and return only non-sensitive diagnostics."""
+    try:
+        endpoint = MISO_HISTORY_ENDPOINTS[dataset].format(date=market_date.isoformat())
+    except KeyError as exc:
+        raise ValueError(f"Unsupported MISO history dataset: {dataset}") from exc
+
+    with httpx.Client(
+        base_url=settings.miso_api_base_url,
+        headers=_authenticated_headers(settings),
+        timeout=60,
+    ) as client:
+        payload = get_json(client, endpoint)
+    if not isinstance(payload, dict):
+        raise IngestionError("MISO history response must be a JSON object")
+    validate_history_payload(payload, dataset)
+    return {
+        "dataset": dataset,
+        "market_date": market_date.isoformat(),
+        "endpoint": endpoint,
+        "first_page_rows": len(payload["data"]),
+    }
+
+
 def ingest_history(market_date: date, settings: Settings, batch_id: str | None = None) -> Path:
-    if not settings.miso_api_token:
-        raise IngestionError("MISO_API_TOKEN is required for historical ingestion")
     batch_id = batch_id or new_batch_id()
     destination = settings.raw_data_dir / "miso_history" / market_date.isoformat() / batch_id
     if destination.exists():
@@ -60,11 +96,7 @@ def ingest_history(market_date: date, settings: Settings, batch_id: str | None =
         "retrieved_at_utc": retrieved_at,
         "datasets": {},
     }
-    headers = {
-        "Accept": "application/json",
-        "Ocp-Apim-Subscription-Key": settings.miso_api_token,
-        "User-Agent": "energy-market-analytics-lakehouse/0.1",
-    }
+    headers = _authenticated_headers(settings)
     with httpx.Client(base_url=settings.miso_api_base_url, headers=headers, timeout=60) as client:
         for dataset, template in MISO_HISTORY_ENDPOINTS.items():
             endpoint = template.format(date=market_date.isoformat())

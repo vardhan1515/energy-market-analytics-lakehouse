@@ -3,8 +3,17 @@
 from __future__ import annotations
 
 import os
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from pathlib import Path
+from typing import Protocol
+
+
+class SecretGetter(Protocol):
+    def get(self, *, scope: str, key: str) -> str: ...
+
+
+class DatabricksUtilities(Protocol):
+    secrets: SecretGetter
 
 
 @dataclass(frozen=True)
@@ -28,6 +37,20 @@ class Settings:
             ).rstrip("/"),
             miso_api_token=os.getenv("MISO_API_TOKEN") or None,
         )
+
+    @classmethod
+    def from_databricks_secret(
+        cls,
+        dbutils: DatabricksUtilities,
+        *,
+        scope: str = "energy-market",
+        key: str = "miso-api-token",
+    ) -> Settings:
+        """Load the MISO token from a Databricks-backed secret scope."""
+        token = dbutils.secrets.get(scope=scope, key=key)
+        if not token:
+            raise ValueError(f"Databricks secret {scope}/{key} is empty")
+        return replace(cls.from_environment(), miso_api_token=token)
 
 
 @dataclass(frozen=True)
