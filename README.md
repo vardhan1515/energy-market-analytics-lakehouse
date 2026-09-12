@@ -89,6 +89,11 @@ secret scope. `Settings.from_databricks_secret(dbutils)` reads it without placin
 Git or notebook source. Run `databricks/notebooks/05_miso_access_test.py` to make one authenticated
 request and print only the dataset, market date, and first-page row count.
 
+Databricks Free Edition restricts outbound internet access to a limited set of trusted domains, so
+the notebook can fail with DNS resolution errors before MISO receives the request. The subscription
+can still be verified with the signed-in MISO Data Exchange API console. For automated ingestion,
+run the client locally or use Databricks compute whose egress policy permits `apim.misoenergy.org`.
+
 ## Idempotency and quality
 
 Bronze rows are keyed by `record_checksum`; Silver and Gold tables use documented business keys. Delta `MERGE` makes reruns deterministic, and failed runs remain retryable. Invalid rows go to `silver.quarantined_records`; rule-level outcomes go to `ops.data_quality_results`.
@@ -105,7 +110,7 @@ Blocking checks include schema contracts, parseable timestamps, nonnegative load
 
 ## Current limitations
 
-The checked-in dashboard is a query and layout specification because Databricks dashboard export objects are workspace-specific. A user must create or import the dashboard in their workspace and add screenshots to `docs/images/`. Only one complete historical day and one near-real-time snapshot are committed as safe samples; portfolio findings over the full 2023–2026 history must be computed after loading that history. See [docs/limitations.md](docs/limitations.md).
+The checked-in dashboard is a query and layout specification because Databricks dashboard export objects are workspace-specific. A user must create or import the dashboard in their workspace and add screenshots to `docs/images/`. Databricks Free Edition cannot call the MISO Data Exchange host directly because of its outbound-domain allowlist. Only one complete historical day and one near-real-time snapshot are committed as safe samples; portfolio findings over the full 2023–2026 history must be computed after loading that history. See [docs/limitations.md](docs/limitations.md).
 
 ## License
 

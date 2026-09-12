@@ -27,11 +27,9 @@ def _authenticated_headers(settings: Settings) -> dict[str, str]:
 
 def _fetch_pages(client: httpx.Client, endpoint: str, dataset: str) -> list[dict[str, Any]]:
     pages: list[dict[str, Any]] = []
-    page_number = 0
+    page_number = 1
     while True:
-        payload = get_json(
-            client, endpoint, params={"pageNumber": page_number} if page_number else None
-        )
+        payload = get_json(client, endpoint, params={"pageNumber": page_number})
         if not isinstance(payload, dict):
             raise IngestionError("MISO history response must be a JSON object")
         validate_history_payload(payload, dataset)
@@ -43,7 +41,7 @@ def _fetch_pages(client: httpx.Client, endpoint: str, dataset: str) -> list[dict
         current = page.get("pageNumber")
         total = page.get("totalPages")
         if last_page is True or (
-            isinstance(current, int) and isinstance(total, int) and current >= total - 1
+            isinstance(current, int) and isinstance(total, int) and current >= total
         ):
             break
         if not isinstance(current, int):
